@@ -1,73 +1,204 @@
-# Welcome to your Lovable project
+🏋️‍♀️ Gamified Fitness & Activity Booster App
 
-## Project info
+A modern gamified fitness platform that motivates users to stay active through challenges, streaks, badges, and progress tracking.
+Built with a powerful frontend stack and scalable backend services, this app turns daily fitness into a fun, engaging experience 🎯
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🚀 Live Project
 
-## How can I edit this code?
+🔗 Deployed URL:
+https://fitness-hackathone-project.vercel.app/
+📌 Problem Statement
 
-There are several ways of editing your application.
+Many people struggle to stay consistent with fitness due to lack of motivation and accountability. Traditional fitness apps track data but fail to engage users emotionally.
 
-**Use Lovable**
+✅ Our Solution
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+We introduce gamification into fitness:
 
-Changes made via Lovable will be committed automatically to this repo.
+Daily & weekly challenges
 
-**Use your preferred IDE**
+Streak-based rewards
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Achievement badges
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Verified activity submissions
 
-Follow these steps:
+Visual progress tracking
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+This encourages users to build long-term healthy habits.
+
+✨ Key Features
+🔐 Authentication
+
+Email & password login
+
+Secure authentication using Firebase
+
+Verified user accounts
+
+🏆 Gamification System
+
+Fitness challenges (steps, running, workouts)
+
+Daily & weekly streaks
+
+Achievement badges
+
+XP & progress tracking
+
+📊 Activity Submission
+
+Manual activity submission
+
+Upload screenshots (SS) from tracking apps
+
+Verified account-based submissions
+
+Optional third-party integrations (future-ready)
+
+🔥 Streaks & Rewards
+
+Consecutive-day streak tracking
+
+Bonus points for consistency
+
+Visual streak indicators
+
+🎨 UI / UX
+
+Clean, responsive design
+
+Mobile-first layout
+
+Smooth animations
+
+User-friendly dashboards
+
+🛠️ Tech Stack
+Frontend
+
+Vite
+
+React (TypeScript)
+
+Tailwind CSS
+
+shadcn/ui
+
+Responsive UI Components
+
+Backend & Services
+
+Firebase Authentication
+
+Firebase Firestore (Database)
+
+Firebase Storage (Screenshots & uploads)
+
+Deployment
+
+Lovable
+
+Vercel
+
+📂 Project Structure
+src/
+├── components/        # Reusable UI components
+├── pages/             # App pages (Login, Dashboard, Challenges)
+├── firebase/          # Firebase configuration
+├── hooks/             # Custom React hooks
+├── utils/             # Helper functions
+├── styles/            # Global styles
+├── App.tsx
+└── main.tsx
+
+⚙️ How to Run the Project Locally
+Prerequisites
+
+Node.js (v18+ recommended)
+
+npm or yarn
+
+Steps
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔐 Environment Variables
 
-**Use GitHub Codespaces**
+Create a .env file and add:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
 
-## What technologies are used for this project?
+🌍 Deployment
 
-This project is built with:
+Deployment is handled via Lovable:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Open your Lovable project
 
-## How can I deploy this project?
+Click Share → Publish
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Your app is live instantly 🚀
 
-## Can I connect a custom domain to my Lovable project?
+🌐 Custom Domain
 
-Yes, you can!
+You can connect a custom domain:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Go to Project → Settings → Domains
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Click Connect Domain
+
+Follow the setup instructions
+
+
+🧠 Future Enhancements
+
+Google Fit / Apple Health integration
+
+Strava API support
+
+Leaderboards
+
+AI-based fitness recommendations
+
+Social challenges & team competitions
+
+Push notifications
+
+👩‍💻 Developed By
+
+Chauhan Vaishali
+🎓 Information Technology Student
+💻 Frontend Developer
+🔗 GitHub: https://github.com/vaishali2801
+
+🔗 LinkedIn: https://www.linkedin.com/in/vaishalich2801/
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🐞 Report issues
+
+💡 Suggest features
+## 📜 License
+
+This project is licensed under the MIT License.
